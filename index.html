@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- FIRST PAGE -->
+    <div id="home">
+      <header>
+        <div class="navigation">
+          <a class="navbar-brand" href="#home"
+            ><img src="./assets/pics/LTE_logo_no_background.png" alt=""
+          /></a>
+
+          <div class="hamburger">
+            <span class="box"></span>
+          </div>
+
+          <nav id="menu-center" class="hidden">
+            <ul>
+              <li>
+                <a class="hidden-href home-page active" href="#home">Home</a>
+              </li>
+              <li><a class="hidden-href about-page" href="#about">About</a></li>
+              <li>
+                <a class="hidden-href projects-page" href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a class="hidden-href contact-page" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-animation"></div>
+      </header>
+
+      <div class="overflow"></div>
+
+      <section class="welcome">
+        <h1>
+          Hello, I am <span>Levente Málnási</span>. <br />
+          I'm a full-stack web developer, <br />
+          a passionate UI/UX designer.
+        </h1>
+      </section>
+    </div>
+    <!-- FIRST PAGE -->
+
+    <!-- ABOUT -->
+    <div id="about">
+      <h1>About me</h1>
+
+      <div class="grid-columns">
+        <div class="card about-portrait-txt">
+          <img src="./assets/pics/lte2.jpg" alt="" />
+          <h3>
+            I'm a <span>web developer</span> based in <br />
+            Sfantu Gheorghe, Romania.
+          </h3>
+          <p>
+            I enjoy turning complex problems into simple, beautiful and
+            intuitive designs. When I'm not coding, you'll find me cooking,
+            hiking or bushcrafting in the forest.
+          </p>
+          <p><a class="anchor-link" href="#contact">Wanna collaborate?</a></p>
+        </div>
+
+        <div class="card about-skills">
+          <div class="skillbar clearfix " data-percent="75%">
+            <div class="skillbar-title" style="background: #BF360C;">
+              <span>HTML/CSS</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(216, 67, 21); width: 75%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">75%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="55%">
+            <div class="skillbar-title" style="background: #E65100;">
+              <span>PHP</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(239, 108, 0); width: 55%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">55%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="75%">
+            <div class="skillbar-title" style="background: #FF6F00;">
+              <span>WordPress</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(255, 143, 0); width: 75%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">75%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #F57F17;">
+              <span>JavaScript</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(249, 168, 37); width: 60%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">60%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #827717;">
+              <span>jQuery</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(158, 157, 36); width: 60%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">60%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #33691E;">
+              <span>ReactJs</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(85, 139, 47); width: 40%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">40%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #1B5E20;">
+              <span>MySql</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(46, 125, 50); width: 60%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">60%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #004D40;">
+              <span>CodeIgniter</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(0, 105, 92); width: 40%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">40%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="35%">
+            <div class="skillbar-title" style="background: #006064;">
+              <span>Laravel</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(0, 131, 143); width: 35%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">35%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="50%">
+            <div class="skillbar-title" style="background: #01579B;">
+              <span>UI design</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(2, 119, 189); width: 50%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">50%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="45%">
+            <div class="skillbar-title" style="background: #0D47A1;">
+              <span>UX design</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(21, 101, 192); width: 45%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">45%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="75%">
+            <div class="skillbar-title" style="background: #1A237E;">
+              <span>Photoshop</span>
+            </div>
+            <div
+              class="skillbar-bar"
+              style="background: rgb(40, 53, 147); width: 75%; animation: 6s ease 0s 1 normal none running animate-positive; opacity: 1;"
+            ></div>
+            <div class="skill-bar-percent">75%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <div class="about-icons">
+          <div>
+            <img src="./assets/pics/responsive.png" />
+            <h3>Responsive</h3>
+            <p>Work on any device</p>
+          </div>
+
+          <div>
+            <img src="./assets/pics/ux.png" />
+            <h3>Intuitive</h3>
+            <p>Visual and easy to use</p>
+          </div>
+
+          <div>
+            <img src="./assets/pics/puzzle.png" />
+            <h3>Custom</h3>
+            <p>Best suits your needs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ABOUT -->
+
+    <!-- PROJECTS -->
+    <div id="projects">
+      <h1>Projects</h1>
+
+      <section class="projects">
+        <!-- samocar sablare -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              samocar sablare
+            </h2>
+            <i></i>
+          </div>
+          <div
+            class="work-imgs"
+            style="background: url(assets/pics/samocar.jpg);"
+          >
+            <a href="http://samocarsablare.ro/" target="_blank" class="hidden">
+              <ul>
+                <li>wordpress</li>
+                <li>php</li>
+                <li>html</li>
+                <li>css</li>
+                <li>jquery</li>
+                <li>photoshop</li>
+                <li>maintenance</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- samocar sablare -->
+
+        <!-- BreakOnBudapest -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              BreakOnBudapest
+            </h2>
+            <i></i>
+          </div>
+          <div class="work-imgs" style="background: url(assets/pics/bob.jpg);">
+            <a
+              href="http://www.breakonbudapest.com"
+              target="_blank"
+              class="hidden"
+            >
+              <ul>
+                <li>wordpress</li>
+                <li>php</li>
+                <li>html</li>
+                <li>css</li>
+                <li>jquery</li>
+                <li>bootstrap 3.3.7</li>
+                <li>font awesome</li>
+                <li>photoshop</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- BreakOnBudapest -->
+
+        <!-- danielCastle -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              DanielCastle
+            </h2>
+            <i></i>
+          </div>
+          <div
+            class="work-imgs"
+            style="background: url(assets/pics/daniel.jpg);"
+          >
+            <a
+              href="http://www.danielcastle.ro/"
+              target="_blank"
+              class="hidden"
+            >
+              <ul>
+                <li>wordpress</li>
+                <li>php</li>
+                <li>html</li>
+                <li>css</li>
+                <li>jquery</li>
+                <li>photoshop</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- danielCastle -->
+
+        <!-- dobogoko -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              Dobogókő
+            </h2>
+            <i></i>
+          </div>
+          <div
+            class="work-imgs"
+            style="background: url(assets/pics/dobogoko.jpg);"
+          >
+            <a
+              href="http://www.dobogoko-bike.hu/teszt"
+              target="_blank"
+              class="hidden"
+            >
+              <ul>
+                <li>wordpress</li>
+                <li>php</li>
+                <li>html</li>
+                <li>css</li>
+                <li>font awesome</li>
+                <li>jquery</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- dobogoko -->
+
+        <!-- dot.consla -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              dot.consla
+            </h2>
+            <i></i>
+          </div>
+          <div
+            class="work-imgs"
+            style="background: url(assets/pics/dotconsla.jpg);"
+          >
+            <a
+              href="http://dot.consla.hu/en/home-2/"
+              target="_blank"
+              class="hidden"
+            >
+              <ul>
+                <li>wordpress</li>
+                <li>php</li>
+                <li>html</li>
+                <li>css</li>
+                <li>jquery</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- dot.consla -->
+
+        <!-- dsz -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              digitalis székelyföld
+            </h2>
+            <i></i>
+          </div>
+          <div class="work-imgs" style="background: url(assets/pics/dsz.jpg);">
+            <a
+              href="http://digitalisszekelyfold.ro/"
+              target="_blank"
+              class="hidden"
+            >
+              <ul>
+                <li>wordpress</li>
+                <li>php</li>
+                <li>html</li>
+                <li>css</li>
+                <li>jquery</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- dsz -->
+
+        <!-- fro-mag -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              fro-mag
+            </h2>
+            <i></i>
+          </div>
+          <div
+            class="work-imgs"
+            style="background: url(assets/pics/fromag.jpg);"
+          >
+            <a href="http://fro-mag.com/" target="_blank" class="hidden">
+              <ul>
+                <li>wordpress</li>
+                <li>maintenance</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- fro-mag -->
+
+        <!-- froracing -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              froracing
+            </h2>
+            <i></i>
+          </div>
+          <div
+            class="work-imgs"
+            style="background: url(assets/pics/froracing.jpg);"
+          >
+            <a href="http://froracing.hu/" target="_blank" class="hidden">
+              <ul>
+                <li>wordpress</li>
+                <li>maintenance</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- froracing -->
+
+        <!-- Cherrychair -->
+        <div class="work-content">
+          <div class="bar">
+            <h2>
+              Cherrychair
+            </h2>
+            <i></i>
+          </div>
+          <div
+            class="work-imgs"
+            style="background: url(assets/pics/cherry.jpg);"
+          >
+            <a href="http://cherrychair.ro/" target="_blank" class="hidden">
+              <ul>
+                <li>wordpress</li>
+                <li>php</li>
+                <li>html</li>
+                <li>css</li>
+                <li>jquery</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <!-- Cherrychair -->
+      </section>
+    </div>
+    <!-- PROJECTS -->
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <h1>Contact me</h1>
+
+      <section class="contact">
+        <!-- form -->
+        <div id="form-main">
+          <div id="form-div">
+            <p class="get-touch">
+              If you wanna get in touch, talk to me about a project
+              collaboration or just say hi, please fill up the form.
+            </p>
+            <form name="contact" netlify>
+              <p class="name">
+                <input
+                  name="name"
+                  type="text"
+                  class="feedback-input"
+                  required
+                  placeholder="Name"
+                  id="name"
+                />
+              </p>
+              <p class="email">
+                <input
+                  name="email"
+                  type="email"
+                  required
+                  class="feedback-input"
+                  id="email"
+                  placeholder="Email"
+                />
+              </p>
+              <p class="text">
+                <textarea
+                  name="message"
+                  class="feedback-input"
+                  id="comment"
+                  placeholder="Message"
+                  rows="5"
+                ></textarea>
+              </p>
+              <div class="submit">
+                <button type="submit" class="button-blue">SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- form -->
+
+        <div class="maprouter">
+          <div class="gmap_canvas">
+            <iframe
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=Nicolae%20Iorga%2011C&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- CONTACT -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        &copy; All rights reserved - Levente Málnási &nbsp; | &nbsp; LTEDEV.TECH
+      </p>
+      <div class="social">
+        <a href="https://www.facebook.com/levente.malnasi" target="_blank">
+          <img src="assets/pics/face.png" alt="facebook" />
+        </a>
+
+        <a href="https://www.fiverr.com/leventemalnasi" target="_blank">
+          <img src="assets/pics/fiverr.png" alt="fiverr" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/mlevente/" target="_blank">
+          <img src="assets/pics/linkedin.png" alt="linkedin" />
+        </a>
+
+        <a href="https://www.instagram.com/lmalnasi/" target="_blank">
+          <img src="assets/pics/instagram.png" alt="instagram" />
+        </a>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
